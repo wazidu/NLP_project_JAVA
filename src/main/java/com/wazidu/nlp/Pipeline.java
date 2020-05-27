@@ -10,13 +10,13 @@ import java.util.Properties;
 public class Pipeline {
 
     private static Properties properties;
-//    here ...tokenize for tokenization ...ssplit for sentence recogniser
-    private static String propertiesName="tokenize, ssplit";
+////    here ...tokenize for tokenization ...ssplit for sentence recogniser
+//    pos for parts of speech
+    private static String propertiesName="tokenize, ssplit, pos";
     private static StanfordCoreNLP stanfordCoreNLP;
 
     private Pipeline()
     {
-
     }
 
     static {
