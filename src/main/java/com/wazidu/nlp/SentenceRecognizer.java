@@ -23,5 +23,10 @@ public class SentenceRecognizer {
         stanfordCoreNLP.annotate(coreDocument);
 
         List<CoreSentence> sentences =coreDocument.sentences();
+
+        for(CoreSentence sentence: sentences)
+        {
+            System.out.println(sentence.toString());
+         }
     }
 }
