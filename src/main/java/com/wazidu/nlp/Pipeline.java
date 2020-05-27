@@ -12,7 +12,8 @@ public class Pipeline {
     private static Properties properties;
 ////    here ...tokenize for tokenization ...ssplit for sentence recogniser
 //    pos for parts of speech
-    private static String propertiesName="tokenize, ssplit, pos";
+//    lemma for lemmatization
+    private static String propertiesName="tokenize, ssplit, pos, lemma";
     private static StanfordCoreNLP stanfordCoreNLP;
 
     private Pipeline()
