@@ -32,3 +32,7 @@ simple Natural Language Processing Project with java
         </dependency>
         
  </code>
+ 
+ <h4>Project type: maven project</h4>
+
+so..keep learning & playing with java.. :)
