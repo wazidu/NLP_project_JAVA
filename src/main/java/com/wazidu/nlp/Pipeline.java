@@ -14,7 +14,8 @@ public class Pipeline {
 //    pos for parts of speech
 //    lemma for lemmatization
 //    ner for named entity recognisation
-    private static String propertiesName="tokenize, ssplit, pos, lemma,ner";
+//    parse, sentiment for sentiment analysis
+    private static String propertiesName="tokenize, ssplit, pos, lemma,ner,parse,sentiment";
     private static StanfordCoreNLP stanfordCoreNLP;
 
     private Pipeline()
