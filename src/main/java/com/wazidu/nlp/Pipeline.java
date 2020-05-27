@@ -10,7 +10,8 @@ import java.util.Properties;
 public class Pipeline {
 
     private static Properties properties;
-    private static String propertiesName="tokenize";
+//    here ...tokenize for tokenization ...ssplit for sentence recogniser
+    private static String propertiesName="tokenize, ssplit";
     private static StanfordCoreNLP stanfordCoreNLP;
 
     private Pipeline()
